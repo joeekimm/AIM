@@ -1,0 +1,53 @@
+@mixin md-icon-size($size: 24px)
+  font-size: $size
+  height: $size
+  width: $size
+  line-height: $size
+
+.navbar
+  width: 100vw
+  // padding-left: 24px
+  // padding-right: 24px
+  // padding-top: 24px
+  padding: 24px 24px 0px 24px
+  background-color: transparent
+  position: absolute
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.navbar-contents
+  width: 400px
+  font-family: proxima-nova
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: .06em
+  text-transform: uppercase
+  margin-right: 2vw
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: center
+
+span
+  color: white
+
+.navbar-logo-text
+  font-family: acumin
+  font-weight: 500
+  font-style: normal
+  font-size: 34px
+  letter-spacing: .06em
+  text-transform: uppercase
+  color: white
+  text-shadow: 2px 2px black
+  font-size: 36px
+
+.hamburger-menu
+  margin: 1%
+
+a
+  text-decoration: none
+
+.navbar-icons
+  @include md-icon-size(46px)

@@ -14,6 +14,7 @@ import { VideoComponent } from './components/video-list/video/video.component';
 import { VideoPlayerComponent } from './components/video-list/video-player/video-player.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { BioComponent } from './components/bio/bio.component';
+import { CreditItemComponent } from './components/credits/credit-item/credit-item.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { BioComponent } from './components/bio/bio.component';
     VideoPlayerComponent,
     ContactsComponent,
     BioComponent,
+    CreditItemComponent,
   ],
   imports: [
     BrowserModule,

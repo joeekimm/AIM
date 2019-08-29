@@ -1,7 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# exclude large asset files
+# exclude large asset files 
 /src/assets/videos
+/src/assets/pictures
 
 # compiled output
 /dist

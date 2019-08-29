@@ -1,0 +1,37 @@
+.contacts-container
+  font-size: 28px
+  padding-top: 50px
+  margin: auto
+  width: 80%
+
+.form-container
+  // background-color: black
+  margin-top: 50px
+  display: grid 
+  grid-template-columns: 1fr 
+  grid-template-rows: repeat(4, 1fr) 
+  grid-column-gap: 0px
+  grid-row-gap: 10px
+
+.name-container
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-column-gap: 10px
+
+.contact-input
+  color: white
+
+::ng-deep .mat-form-field-label
+  color: white !important
+
+::ng-deep .mat-focused .mat-form-field-label
+  /*change color of label*/
+  color: red !important
+
+::ng-deep.mat-form-field-underline 
+  /*change color of underline*/
+  background-color: white !important
+
+::ng-deep.mat-form-field-ripple
+  /*change color of underline when focused*/
+  background-color: pink !important

@@ -3,6 +3,7 @@
 # exclude large asset files 
 /src/assets/videos
 /src/assets/pictures
+/src/assets/bgpics
 
 # compiled output
 /dist

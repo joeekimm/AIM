@@ -33,7 +33,7 @@ const PicList = [
     imageUrl: 'assets/pictures/atb.jpg'
   },
   {
-    imageUrl: 'assets/pictures/big-sean-overtime.jpeg'
+    imageUrl: 'assets/pictures/big-sean-overtime.jpg'
   },
   {
     imageUrl: 'assets/pictures/disp3.jpg'
@@ -42,16 +42,16 @@ const PicList = [
     imageUrl: 'assets/pictures/djkhaled_majorkey_5x5_pa_lr_1024-570x570.jpg'
   },
   {
-    imageUrl: 'assets/pictures/download.jpeg'
+    imageUrl: 'assets/pictures/download.jpg'
   },
   {
-    imageUrl: 'assets/pictures/download+(1).jpeg'
+    imageUrl: 'assets/pictures/download+(1).jpg'
   },
   {
     imageUrl: 'assets/pictures/efae5867d6e39372f9815e5f28cde6a5.1000x1000x1.jpg'
   },
   {
-    imageUrl: 'assets/pictures/fam+not+a+group.jpeg'
+    imageUrl: 'assets/pictures/fam+not+a+group.jpg'
   },
   {
     imageUrl: 'assets/pictures/heartbrake.jpg'

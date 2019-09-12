@@ -1,17 +1,15 @@
-<a [routerLink]="['/video-player', index]">
-  <mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>{{ properties.title }}</mat-card-title>
-      <mat-card-subtitle>{{ properties.subtitle }}</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="{{ properties.image }}" alt="{{ properties.alt }}">
-    <mat-card-content>
-      <p>{{ properties.description }}</p>
-    </mat-card-content>
-    <!-- <mat-card-actions>
-      <button mat-button>LIKE</button>
-      <button mat-button>SHARE</button>
-    </mat-card-actions> -->
-  </mat-card>
-</a>
+<mat-card [routerLink]="['/video-player', index]" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ properties.title }}</mat-card-title>
+    <mat-card-subtitle>{{ properties.subtitle }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{ properties.image }}" alt="{{ properties.alt }}">
+  <mat-card-content>
+    <p>{{ properties.description }}</p>
+  </mat-card-content>
+  <!-- <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions> -->
+</mat-card>
